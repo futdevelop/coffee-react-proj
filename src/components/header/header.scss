@@ -1,13 +1,7 @@
 .header {
 	position: relative;
-	height: 400px;
-	width: auto;
-	height: 40px;
 	display: flex;
-	padding-top: 30px;
-	padding-left: 142px;
-	padding-right: 151px;
-	padding-bottom: 38px;
+	padding: 30px 151px 38px 142px;
 	&-bg img{
 		position: absolute;
 		width: 100%;
@@ -21,8 +15,7 @@
 	}
 	&-items {
 		margin-right: 40px;
-		list-style: none;
-		font-size: 12px;
+		font-size: 13px;
 		line-height: 17px;
 		transition: all 0.3s ease 0s;
 		&:hover {
