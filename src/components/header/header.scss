@@ -1,0 +1,26 @@
+.header {
+	position: relative;
+	height: 400px;
+	width: auto;
+	display: flex;
+	padding-top: 30px;
+	padding-left: 142px;
+	padding-right: 151px;
+	&-bg img{
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: -1;
+	}
+	&-menu {
+		padding-top: 22px;
+		display: flex;
+	}
+	&-items {
+		margin-right: 40px;
+		list-style: none;
+		font-size: 12px;
+		line-height: 17px;
+	}
+}
