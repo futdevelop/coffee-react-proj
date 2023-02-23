@@ -1,8 +1,60 @@
 .main {
-	width: 1440px;
+	width: auto;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 73px;
+	padding-bottom: 201px;
 	&-title {
-		font-weight: 700;
 		font-size: 40px;
 		line-height: 58px;
+		margin-bottom: 20px;
+	}
+	&-decor {
+		width: 30px;
+		height: 30px;
+		margin-bottom: 34.7px;
+		position: relative;
+	}
+	&-decor::after,
+	&-decor::before {
+		content: '';
+		position: absolute;
+		bottom: 15px;
+		left: -85px;
+		background-color: #fff;
+		width: 60px;
+		height: 1px;
+	}
+	&-decor::before {
+		bottom: 15px;
+		left: 56px;
+	}
+
+	&-text {
+		font-size: 24px;
+		line-height: 35px;
+		margin-bottom: 20px;
+		margin-top: 0;
+	}
+	&-prep {
+		font-size: 24px;
+		line-height: 35px;
+		margin-top: 0;
+	}
+	&-btn {
+		padding: 5px 42px 10px;
+		border-radius: 5px;
+		border: 1px solid #fff;
+		font-size: 14px;
+		line-height: 20px;
+		transition: all 0.3s ease 0s;
+		
+	}
+	&-btn:hover {
+		background-color: #fff;
+		color: #807e7e;;
 	}
 }

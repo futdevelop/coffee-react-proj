@@ -2,10 +2,12 @@
 	position: relative;
 	height: 400px;
 	width: auto;
+	height: 40px;
 	display: flex;
 	padding-top: 30px;
 	padding-left: 142px;
 	padding-right: 151px;
+	padding-bottom: 38px;
 	&-bg img{
 		position: absolute;
 		width: 100%;
@@ -22,5 +24,9 @@
 		list-style: none;
 		font-size: 12px;
 		line-height: 17px;
+		transition: all 0.3s ease 0s;
+		&:hover {
+			color: #807e7e;
+		}
 	}
 }

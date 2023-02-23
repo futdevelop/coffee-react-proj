@@ -4,9 +4,10 @@ function Main() {
 	return (
 		<div className='main'>
 			<h1 className='main-title'>Everything You Love About Coffee</h1>
+			<div className="main-decor"><img src="/images/main-decor.png" alt="coffee" /></div>
 			<h2 className='main-text'>We makes every day full of energy and taste</h2>
-			<h2 className='main-text'>Want to try our beans?</h2>
-			<button type='button' className='main-btn'>More</button>
+			<h2 className='main-prep'>Want to try our beans?</h2>
+			<a href='#' className='main-btn'>More</a>
 		</div>
 	)
 }
