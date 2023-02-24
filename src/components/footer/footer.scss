@@ -1,0 +1,47 @@
+.footer {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 151px 0 142px;
+	&-top {
+		display: flex;
+	}
+	&-menu {
+		padding-top: 22px;
+		display: flex;
+		color: #000;
+		margin-bottom: 30px
+	}
+	&-decor {
+		width: 30px;
+		height: 30px;
+		margin-bottom: 20.7px;
+		position: relative;
+	}
+
+	&-decor span {
+		content: '';
+		position: absolute;
+		bottom: 15px;
+		left: -85px;
+		background-color: #000;
+		width: 60px;
+		height: 2px;
+	}
+
+	&-decor span:nth-child(2) {
+		bottom: 15px;
+		left: 56px;
+	}
+	&-items {
+		margin-right: 40px;
+		font-size: 13px;
+		line-height: 17px;
+		transition: all 0.3s ease 0s;
+		&:hover {
+			color: #807e7e;
+		}
+	}
+}
