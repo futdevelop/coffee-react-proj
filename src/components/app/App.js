@@ -26,11 +26,12 @@ class App extends Component {
 				<Header />
 				<Main />
 				<About />
-				<CardList data={data}/>
+				<CardList data={data} />
 				<Footer />
 			</div>
 		)
 	}
+
 }
 
 export default App;
